@@ -160,3 +160,7 @@ if (config.shareLibPath !== undefined) {
 } else {
     startArrow();
 }
+
+exports.path = function() {
+    return __dirname;
+};
